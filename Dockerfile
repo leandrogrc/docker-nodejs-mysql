@@ -7,7 +7,7 @@ RUN npm install
 
 COPY . .
 
-RUN chmod +x wait-for-db.sh  # Adicione esta linha
+RUN chmod +x wait-for-db.sh
 
 EXPOSE 8080
 
